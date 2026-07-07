@@ -11,7 +11,8 @@ A policy is considered overlapped when the upper rule’s conditions (interfaces
 Service objects are checked using partial‑match logic.  
 Only overlaps that meet the detection criteria are reported, and the output includes the service entries that were identified as overlapping.
 
-# FortiGate Policy Overlap Detection Tool (Python)
+
+
 
 ## Usage
 
@@ -33,6 +34,17 @@ Only overlaps that meet the detection criteria are reported, and the output incl
 
 3. **Open a command prompt**  
    Change the working directory to the folder where you placed the files.
-
-   ```bash
+ ```
    cd C:\path\to\your\folder
+```
+
+4. **Run the script**
+```
+python main.py
+```
+
+5. **Select FortiGate folder**
+   When prompted, choose the folder that contains your FortiGate configuration files.
+
+6. **Check output**
+   A CSV file will be generated in the working directory containing the detected policy overlaps.
