@@ -10,3 +10,29 @@ A policy is considered overlapped when the upper rule’s conditions (interfaces
 ## Service Overlap Handling
 Service objects are checked using partial‑match logic.  
 Only overlaps that meet the detection criteria are reported, and the output includes the service entries that were identified as overlapping.
+
+# FortiGate Policy Overlap Detection Tool (Python)
+
+## Usage
+
+### Prerequisites
+- **Python** must be installed on your local machine.
+
+### Important Note
+- If you use **VDOMs**, obtain a backup configuration for each VDOM and run this script against each VDOM backup separately.
+
+---
+
+## Steps
+
+1. **Download files**  
+   Download all files in this repository to your local PC **except** `README.md`.
+
+2. **Place files**  
+   Place the downloaded files in any directory of your choice.
+
+3. **Open a command prompt**  
+   Change the working directory to the folder where you placed the files.
+
+   ```bash
+   cd C:\path\to\your\folder
