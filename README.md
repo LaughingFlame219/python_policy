@@ -22,9 +22,7 @@ Only overlaps that meet the detection criteria are reported, and the output incl
 ### Important Note
 - If you use **VDOMs**, obtain a backup configuration for each VDOM and run this script against each VDOM backup separately.
 
----
-
-## Steps
+### Steps
 
 1. **Download files**  
    Download all files in this repository to your local PC **except** `README.md`.
